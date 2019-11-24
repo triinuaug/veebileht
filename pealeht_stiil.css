@@ -1,0 +1,47 @@
+.chuck{
+	margin-left: 150px;
+	margin-top: 25px;
+	height: 400px;
+	width: 300px;
+	border: 5px solid MistyRose;
+}
+
+.sherlock{
+	margin-left: 25px;
+	margin-top: 25px;
+	height: 400px;
+	width: 300px;
+	border: 5px solid MistyRose;
+}
+
+.nööp{
+	margin-left: 25px;
+	margin-top: 25px;
+	height: 400px;
+	width: 300px;
+	border: 5px solid MistyRose;
+}
+
+.map{
+	margin-left: 335px;
+	margin-top: 25px;
+	border: 5px Solid MistyRose;
+	height: 300px;
+	width: 600px;
+}
+
+.kohtumispaik{
+	margin-left: 480px;
+}
+
+.chuck:hover{
+	opacity: 0.9
+}
+
+.sherlock:hover{
+	opacity: 0.9
+}
+
+.nööp:hover{
+	opacity: 0.9
+}
