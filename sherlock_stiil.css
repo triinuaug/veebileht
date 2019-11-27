@@ -1,0 +1,7 @@
+.pilt {
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+	border: 10px Solid MistyRose;
+	height: 400px;
+	width: 600px

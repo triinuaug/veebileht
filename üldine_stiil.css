@@ -15,6 +15,12 @@ body{
 	text-align: center;
 	letter-spacing: 6px;
 }
+
+.keskel{
+  display: flex;
+  justify-content: center;
+}
+
 ul {
 	list-style-type: none;
 	margin: 0;
