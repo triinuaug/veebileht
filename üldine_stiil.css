@@ -5,8 +5,8 @@ body{
 }
 
 @font-face {
-  font-family: GT Eesti Pro Display Light;
-  src: url(GT-Eesti-Pro-Display-Light.OTF) format("opentype");
+	font-family: GT Eesti Pro Display Light;
+	src: url(GT-Eesti-Pro-Display-Light.OTF) format("opentype");
 }
 
 .pealkiri{
