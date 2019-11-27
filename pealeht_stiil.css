@@ -1,5 +1,9 @@
+.nupud{
+  display: flex;
+  justify-content: center;
+}
+
 .chuck{
-	margin-left: 150px;
 	margin-top: 25px;
 	height: 400px;
 	width: 300px;
@@ -23,15 +27,10 @@
 }
 
 .map{
-	margin-left: 335px;
-	margin-top: 25px;
+	margin-top: 50px;
 	border: 5px Solid MistyRose;
 	height: 300px;
 	width: 600px;
-}
-
-.kohtumispaik{
-	margin-left: 480px;
 }
 
 .chuck:hover{
