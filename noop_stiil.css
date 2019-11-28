@@ -1,6 +1,7 @@
 body{
 	font-family: GT Eesti Pro Display Light;
 	color: MistyRose;
+	background-image: url("noop_taust.png");
 }
 .nooppealkiri {
 	font-style: italic;
@@ -13,15 +14,21 @@ p.pehme {
 	border-style: ridge;
 }
 
-img{
+.noop3{
 	border-radius: 50%;
 	margin-left: 60px;
 	width: 300px;
 }
-
+.noop4{
+	border-radius: 50%;
+	margin-left: 550px;
+	width: 300px;
+	float: right;
+	position: absolute;
+}
 div {
 	border-radius: 30%;
-	margin-right: 400px;
+	margin-right: 420px;
 	background-color: Mistyrose;
 	color: black;
 	float: right;
@@ -29,4 +36,9 @@ div {
 	font-family: GT Eesti Pro Display Light;
 	font-size: 20px;
 	width: 300px;
+	display: block;
+}
+img:hover{
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
 }
