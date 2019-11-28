@@ -16,14 +16,12 @@ body{
 	letter-spacing: 6px;
 }
 
-<<<<<<< HEAD
-=======
+
 .keskel{
 	display: flex;
 	justify-content: center;
 }
 
->>>>>>> de8b106ed6cfc211e7347139b932d1789beee2e2
 ul {
 	list-style-type: none;
 	margin: 0;
