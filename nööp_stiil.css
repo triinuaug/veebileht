@@ -1,0 +1,23 @@
+body{
+	background-image: url("nööp_taust.png");
+	font-family: GT Eesti Pro Display Light;
+	color: MistyRose;
+}
+.nööppealkiri {
+	font-style: italic;
+	font-size: 500%;
+	margin-left: 150px;
+	margin-top: 30px;
+}
+
+p.pehme {
+	border-style: ridge;
+}
+
+.nööp3{
+	border: 3px solid MistyRose;
+	margin-left: 20px;
+	display: block;
+	float: left;
+	width: 300px;
+}
