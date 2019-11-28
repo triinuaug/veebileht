@@ -13,10 +13,20 @@ p.pehme {
 	border-style: ridge;
 }
 
-.nööp3{
-	border: 3px solid MistyRose;
-	margin-left: 20px;
-	display: block;
-	float: left;
+img{
+	border-radius: 50%;
+	margin-left: 60px;
+	width: 300px;
+}
+
+div {
+	border-radius: 30%;
+	margin-right: 400px;
+	background-color: Mistyrose;
+	color: black;
+	float: right;
+	padding: 30px 50px 40px 50px;
+	font-family: GT Eesti Pro Display Light;
+	font-size: 20px;
 	width: 300px;
 }
