@@ -1,5 +1,4 @@
 .chuck{
-	margin-left: 150px;
 	margin-top: 25px;
 	height: 400px;
 	width: 300px;
@@ -23,24 +22,20 @@
 }
 
 .map{
-	margin-left: 335px;
 	margin-top: 25px;
 	border: 5px Solid MistyRose;
 	height: 300px;
 	width: 600px;
 }
 
-.kohtumispaik{
-	margin-left: 480px;
+.chuck:hover{
+	opacity: 0.8
 }
 
-.chuck:hover{
-	opacity: 0.9
-
 .sherlock:hover{
-	opacity: 0.9
+	opacity: 0.8
 }
 
 .nööp:hover{
-	opacity: 0.9
+	opacity: 0.8
 }
