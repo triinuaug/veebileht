@@ -13,7 +13,7 @@
 	border: 5px solid MistyRose;
 }
 
-.nööp{
+.noop{
 	margin-left: 25px;
 	margin-top: 25px;
 	height: 400px;
@@ -36,6 +36,6 @@
 	opacity: 0.8
 }
 
-.nööp:hover{
+.noop:hover{
 	opacity: 0.8
 }
