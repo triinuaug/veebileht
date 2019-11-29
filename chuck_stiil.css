@@ -1,11 +1,33 @@
 
 body {
-	background-image: url('taust2.jpg');
+	background-image: url('taust15.jpg');
 	font-family: GT Eesti Pro Display Light;
-	color: black;
+	color: mistyrose;
 }
 
 h2{
+	color: mistyrose;
+	margin-left: 20px;
+	font-size: 28px;
+}
 
+div1 {
+	
+	
+	background-color: mistyrose;
 	color: black;
+	margin-left: 20px;
+	float: left;
+	padding: 20px 20px 20px 20px;
+	font-family: GT Eesti Pro Display Light;
+	font-size: 22px;
+	width: 600px;
+	display: block;
+	text-align: justify;
+
+}
+
+
+
+
 }

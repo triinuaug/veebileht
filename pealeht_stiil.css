@@ -39,3 +39,10 @@
 .noop:hover{
 	opacity: 0.8
 }
+
+h2{
+	color:mistyrose;
+	font-size: 32px;
+	font-style: bold;
+	text-align:center;
+}
