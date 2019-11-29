@@ -1,6 +1,6 @@
   var images = new Array();
-  for (var i = 2; i < 4; i++) {
-	images.push("ilutuba" + i + ".jpg");
+  for (var i = 2; i < 13; i++) {
+	images.push("sherlock" + i + ".jpg");
   }
   var x = 0;
 

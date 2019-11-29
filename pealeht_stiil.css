@@ -1,48 +1,105 @@
-.chuck{
+body{
+	background-image: url("taust.jpg");
+}
+
+.nupp{
 	margin-top: 25px;
+	height: 400px;
+	width: 300px;
+	position: relative
+}
+
+.chuck{
 	height: 400px;
 	width: 300px;
 	border: 5px solid MistyRose;
 }
 
 .sherlock{
-	margin-left: 25px;
-	margin-top: 25px;
+	margin-left: 30px;
 	height: 400px;
 	width: 300px;
 	border: 5px solid MistyRose;
 }
 
 .noop{
-	margin-left: 25px;
-	margin-top: 25px;
+	margin-left: 60px;
 	height: 400px;
 	width: 300px;
 	border: 5px solid MistyRose;
 }
 
+.chuck:hover{
+	transform: scale(1.1);
+}
+
+.sherlock:hover{
+	transform: scale(1.1);
+}
+
+.noop:hover{
+	transform: scale(1.1);
+}
+
+.tekst1{
+	position: absolute;
+	bottom: 10px;
+	left: 65px;
+	background-color: MistyRose;
+	color: black;
+	padding-left: 20px;
+	padding-right: 20px;
+	opacity: 0.5;
+	z-index: 9999;
+}
+
+.tekst1:hover + .chuck {	
+	transform: scale(1.1);
+}
+
+.tekst2{
+	position: absolute;
+	bottom: 10px;
+	left: 85px;
+	background-color: MistyRose;
+	color: black;
+	padding-left: 20px;
+	padding-right: 20px;
+	opacity: 0.5;
+	z-index: 9999;
+}
+.tekst2:hover + .sherlock {	
+	transform: scale(1.1);
+}
+
+.tekst3{
+	position: absolute;
+	bottom: 10px;
+	left: 130px;
+	background-color: MistyRose;
+	color: black;
+	padding-left: 20px;
+	padding-right: 20px;
+	opacity: 0.5;
+	z-index: 9999;
+}
+
+.tekst3:hover + .noop {	
+	transform: scale(1.1);
+}
+
 .map{
-	margin-top: 25px;
 	border: 5px Solid MistyRose;
 	height: 300px;
 	width: 600px;
 }
 
-.chuck:hover{
-	opacity: 0.8
-}
-
-.sherlock:hover{
-	opacity: 0.8
-}
-
-.noop:hover{
-	opacity: 0.8
-}
-
-h2{
+.kirjeldus {
 	color:mistyrose;
 	font-size: 32px;
 	font-style: bold;
-	text-align:center;
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+	line-height: 1.5;
 }

@@ -1,7 +1,13 @@
+body{
+	background-image: url("sherlock-taust.jpg");
+}
+
 .pilt {
 	display: flex;
 	justify-content: center;
 	margin-top: 25px;
 	border: 10px Solid MistyRose;
+	border-radius: 5px;
 	height: 400px;
 	width: 600px
+}
