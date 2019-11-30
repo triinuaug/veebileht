@@ -6,41 +6,45 @@ body {
 }
 
 h2{
-	color: mistyrose;
 	text-align: center;
 	margin-left: 20px;
 	font-size: 28px;
 }
 
-
-p {
+p{
 	
 	background-color: #220619;
 	border-style: double;
 	border-color: mistyrose;
 	border-width: 8px;
-	color: black;
 	float: left;
-	margin-left: 20px;
+	margin-left: 100px;
+	margin-right: 60px;
 	padding: 20px 20px 20px 20px;
-	font-family: GT Eesti Pro Display Light;
 	font-size: 22px;
-	color: mistyrose;
-	width: 70%;
+	width: 530px;
 	display: block;
 	text-align: justify;
+	position: relative;
 
 }
 
 .pilt1 {
-	size: 10px;
-	float:left;
-	margin-left: 20px;
-	width:50%;
+	float:right;
+	margin-right: 150px;
+	margin-left: 30px;
+	width:500px;
+	height: 700px;
 	border-style: double;
 	border-color: mistyrose;
 	border-width: 8px;
-	flex:50%;
+	position: relative;
+
+}
+
+.video{
+
+	margin-left: 100px;
 
 
 }
