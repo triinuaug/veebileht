@@ -7,27 +7,43 @@ body {
 
 h2{
 	color: mistyrose;
+	text-align: center;
 	margin-left: 20px;
 	font-size: 28px;
 }
 
-div1 {
+
+p {
 	
-	
-	background-color: mistyrose;
+	background-color: #220619;
+	border-style: double;
+	border-color: mistyrose;
+	border-width: 8px;
 	color: black;
-	margin-left: 20px;
 	float: left;
+	margin-left: 20px;
 	padding: 20px 20px 20px 20px;
 	font-family: GT Eesti Pro Display Light;
 	font-size: 22px;
-	width: 600px;
+	color: mistyrose;
+	width: 70%;
 	display: block;
 	text-align: justify;
 
 }
 
-
+.pilt1 {
+	size: 10px;
+	float:left;
+	margin-left: 20px;
+	width:50%;
+	border-style: double;
+	border-color: mistyrose;
+	border-width: 8px;
+	flex:50%;
 
 
 }
+
+
+
