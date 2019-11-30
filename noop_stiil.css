@@ -3,14 +3,8 @@ body{
 	color: MistyRose;
 	background-image: url("noop_taust.png");
 }
-.nooppealkiri {
-	font-style: italic;
-	font-size: 500%;
-	margin-left: 150px;
-	margin-top: 30px;
-}
 
-p.pehme {
+p.pehme{
 	border-style: ridge;
 }
 
@@ -19,25 +13,29 @@ p.pehme {
 	margin-left: 60px;
 	width: 300px;
 }
+
 .noop4{
 	border-radius: 50%;
-	margin-left: 550px;
+	margin-right: 20px;
 	width: 300px;
-	float: right;
 	position: absolute;
 }
+
 div {
-	border-radius: 30%;
-	margin-right: 420px;
+	vertical-align: top;
+	display: inline-block;
+	margin-right: 10px;
+	border-radius: 5px;
 	background-color: Mistyrose;
 	color: black;
-	float: right;
 	padding: 30px 50px 40px 50px;
 	font-family: GT Eesti Pro Display Light;
-	font-size: 20px;
-	width: 300px;
-	display: block;
+	font-size: 25px;
+	width: 400px;
+	line-height: 1.5;
+	text-align: justify;
 }
+
 img:hover{
 	-ms-transform: rotate(180deg);
 	transform: rotate(180deg);
