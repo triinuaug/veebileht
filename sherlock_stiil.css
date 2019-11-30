@@ -11,18 +11,73 @@ body{
 }
 
 .sherla {
-	vertical-align: top;
-	display: inline-block;
-	margin-left: 30px;
-	margin-top: 150px;
+	margin-top: 50px;
 	background-color: MistyRose;
 	color: black;
 	font-size: 23px;
 	text-align: justify;
-	width: 600px;
-	height: 300px;
+	width: 580px;
+	height: 330px;
 	padding: 10px 10px 10px 10px;
 	border: 10px Solid MistyRose;
 	border-radius: 5px;
 	line-height: 1.5;
+}
+
+.lingid {
+	margin-left: 100px;
+}
+
+.whippetid {
+	background-color: MistyRose;
+	color: black;
+	font-size: 190%;
+	border: 10px Solid MistyRose;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.whippetid:hover {
+	background-color: #333;
+	color: MistyRose;
+	border: 10px Solid #333;
+	border-radius: 5px;
+}
+
+.borntocharm {
+	margin-left: 18px;
+	background-color: MistyRose;
+	color: black;
+	font-size: 190%;
+	border: 10px Solid MistyRose;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.borntocharm:hover {
+	background-color: #333;
+	color: MistyRose;
+	border: 10px Solid #333;
+	border-radius: 5px;
+}
+
+video {
+	margin-left: 100px;
+	margin-top: 62px;
+	width: 400px;
+	height: 710px;
+	border: 10px Solid MistyRose;
+	border-radius: 5px;
+	
+}
+
+.column {
+	float: left;
+	width: 50%
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both
 }
